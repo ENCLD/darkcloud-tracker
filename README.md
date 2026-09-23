@@ -24,7 +24,8 @@ Results are written to `runs/detect/train-N/`. The trained model is `runs/detect
 The current trained model is included in the repo: `runs/detect/train-3/weights/best.pt`.
 
 ```powershell
-.venv\Scripts\yolo.exe predict model=runs/detect/train-3/weights/best.pt source=path\to\image_or_video
+.venv\Scripts\yolo.exe predict model=runs/detect/train-3/weights/best.pt source=path\to\image_or_video device=0 conf=0.25
+
 ```
 
 ## Dataset
