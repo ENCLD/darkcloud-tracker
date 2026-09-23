@@ -1,0 +1,46 @@
+# --- Python / virtual environment ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- Visual Studio (files are locked while VS is open -> "git add" errors) ---
+.vs/
+*.user
+*.suo
+
+# --- YOLO / Ultralytics outputs ---
+weights/
+*.pt
+*.onnx
+*.engine
+
+# Keep the trained model (latest training run) in the repo
+/runs/*
+!/runs/detect/
+/runs/detect/*
+!/runs/detect/train-3/
+/runs/detect/train-3/*
+!/runs/detect/train-3/weights/
+/runs/detect/train-3/weights/*
+!/runs/detect/train-3/weights/best.pt
+
+# --- Datasets (keep only the dataset config files) ---
+/droneset/*
+!/droneset/data.yaml
+/dronetraining/*
+!/dronetraining/data.yaml
+/dronetest/
+/notfortraining/
+*.cache
+
+# --- Sample images ---
+/bus.jpg
+
+# --- OS files ---
+Thumbs.db
+Desktop.ini
+.DS_Store

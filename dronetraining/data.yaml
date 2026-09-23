@@ -1,0 +1,7 @@
+path: C:/FPV_AI/dronetraining
+train: images/train
+val: images/train
+
+names:
+  0: payload
+  1: drone
