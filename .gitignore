@@ -28,12 +28,9 @@ weights/
 /runs/detect/train-3/weights/*
 !/runs/detect/train-3/weights/best.pt
 
-# --- Datasets (keep only the dataset config files) ---
-/droneset/*
-!/droneset/data.yaml
-/dronetraining/*
-!/dronetraining/data.yaml
-/dronetest/
+# --- Datasets (dronetraining is committed so others can train) ---
+/dronetraining/train.txt
+/dronedataset/
 /notfortraining/
 *.cache
 

@@ -1,4 +1,3 @@
-path: C:/FPV_AI/dronetraining
 train: images/train
 val: images/train
 

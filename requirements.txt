@@ -1,0 +1,5 @@
+# CUDA 13.0 builds of PyTorch (GPU training). Same versions as the original setup.
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch==2.14.0
+torchvision==0.29.0
+ultralytics==8.4.155
